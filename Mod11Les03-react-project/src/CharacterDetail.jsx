@@ -34,7 +34,7 @@ const CharacterDetail = ({ id }) => {
         characterID.description = "No description available"
     }
     if (characterID.comics.available == 0) {
-        let obj = {name: "No comics available"}
+        let obj = [{name: "No comics available"}]
         characterID.comics.items = (obj)
         characterID.comics.available = 1
     }
